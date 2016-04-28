@@ -35,7 +35,7 @@ gulp.task('build:styles', function () {
     .pipe(gulp.dest(paths.dist));
 });
 
-gulp.task('build', ['build:html', 'build:other']);
+gulp.task('build', ['build:html', 'build:other', 'build:styles']);
 
 gulp.task('deploy', ['build'], function () {
   return gulp.src(paths.allDist)
