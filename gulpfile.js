@@ -12,7 +12,7 @@ var paths = {
 
 var data = require(paths.src + 'data.json');
 
-gulp.task('build', function () {
+gulp.task('build:html', function () {
   return gulp.src(paths.liquidSrc)
     .pipe(liquid({
       locals: data
@@ -20,6 +20,13 @@ gulp.task('build', function () {
     .pipe(replaceExtension('.html'))
     .pipe(gulp.dest(paths.dist));
 });
+
+gulp.task('build:other', function () {
+  return gulp.src(paths.src + 'CNAME')
+    .pipe(gulp.dest(paths.dist));
+});
+
+gulp.task('build', ['build:html', 'build:other']);
 
 gulp.task('deploy', ['build'], function () {
   return gulp.src(paths.allDist)
