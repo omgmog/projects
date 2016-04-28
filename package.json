@@ -19,6 +19,7 @@
     "gulp": "^3.9.1",
     "gulp-ext-replace": "^0.3.0",
     "gulp-gh-pages": "^0.5.4",
-    "gulp-liquid": "^0.1.0"
+    "gulp-liquid": "^0.1.0",
+    "gulp-sass": "^2.3.1"
   }
 }

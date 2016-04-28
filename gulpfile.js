@@ -2,12 +2,14 @@ var deploy = require('gulp-gh-pages');
 var gulp = require('gulp');
 var liquid = require('gulp-liquid');
 var replaceExtension = require('gulp-ext-replace');
+var sass = require('gulp-sass');
 
 var paths = {
   dist: './dist/',
   allDist: './dist/**/*',
   src: './src/',
-  liquidSrc: './src/*.liquid'
+  liquidSrc: './src/*.liquid',
+  sassSrc: './src/*.scss'
 }
 
 var data = require(paths.src + 'data.json');
@@ -23,6 +25,13 @@ gulp.task('build:html', function () {
 
 gulp.task('build:other', function () {
   return gulp.src(paths.src + 'CNAME')
+    .pipe(gulp.dest(paths.dist));
+});
+
+gulp.task('build:styles', function () {
+  return gulp.src(paths.sassSrc)
+    .pipe(sass())
+    .pipe(replaceExtension('.css'))
     .pipe(gulp.dest(paths.dist));
 });
 
