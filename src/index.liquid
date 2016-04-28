@@ -9,19 +9,21 @@
 <body>
   {% if projects %}
     <ul class="projects">
-    {% for project in projects %}
+    {% for project in projects reversed %}
       <li>
-        <h2>{{ project.title }}</h2>
         {% if project.image %}
-          <img src="{{ project.image }}" alt="Picture for {{ project.title }}">
+          <div class="image">
+            <img src="{{ project.image }}" alt="Picture for {{ project.title }}">
+          </div>
         {% endif %}
-        {% if project.tags %}
+        <h2>{{ project.title }}</h2>
+        <!-- {% if project.tags %}
           <ul>
           {% for tag in project.tags %}
             <li>{{ tag }}</li>
           {% endfor %}
           </ul>
-        {% endif %}
+        {% endif %} -->
         {% if project.url %}
           <a href="{{ project.url }}" target="_blank">
             View this project
