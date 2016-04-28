@@ -8,6 +8,7 @@ var paths = {
   dist: './dist/',
   allDist: './dist/**/*',
   src: './src/',
+  allSrc: './src/**/*',
   liquidSrc: './src/*.liquid',
   sassSrc: './src/*.scss'
 }
@@ -36,6 +37,10 @@ gulp.task('build:styles', function () {
 });
 
 gulp.task('build', ['build:html', 'build:other', 'build:styles']);
+
+gulp.task('watch', ['build'], function () {
+  gulp.watch(paths.allSrc, ['build']);
+});
 
 gulp.task('deploy', ['build'], function () {
   return gulp.src(paths.allDist)
