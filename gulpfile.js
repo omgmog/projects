@@ -1,13 +1,26 @@
-var gulp        = require('gulp');
-var deploy      = require('gulp-gh-pages');
+var deploy = require('gulp-gh-pages');
+var gulp = require('gulp');
+var liquid = require('gulp-liquid');
+var replaceExtension = require('gulp-ext-replace');
 
 var paths = {
-  allDist: './dist/**/*'
+  dist: './dist/',
+  allDist: './dist/**/*',
+  src: './src/',
+  liquidSrc: './src/*.liquid'
 }
 
-gulp.task('build', function () {
+var data = require(paths.src + 'data.json');
 
+gulp.task('build', function () {
+  return gulp.src(paths.liquidSrc)
+    .pipe(liquid({
+      locals: data
+    }))
+    .pipe(replaceExtension('.html'))
+    .pipe(gulp.dest(paths.dist));
 });
+
 gulp.task('deploy', ['build'], function () {
   return gulp.src(paths.allDist)
     .pipe(deploy());
