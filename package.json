@@ -1,0 +1,22 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omgmog/projects.git"
+  },
+  "author": "Max Glenister <moglenstar@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omgmog/projects/issues"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
