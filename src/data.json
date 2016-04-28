@@ -1,3 +1,137 @@
 {
-  "title": "Projects by Max Glenister"
+  "title": "Projects by Max Glenister",
+  "projects": [
+    {
+      "title": "Chrome simple note taker",
+      "url": "https://github.com/omgmog/chrome-simple-note-taker",
+      "image": "http://i.imgur.com/CsyXLEK.png",
+      "tags": ["chrome", "extension", "productivity"]
+    },
+    {
+      "title": "Chrome add link to Trello",
+      "url": "https://github.com/omgmog/chrome-add-link-to-trello",
+      "image": "http://i.imgur.com/MRIG5gj.png",
+      "tags": ["chrome", "extension", "productivity"]
+    },
+    {
+      "title": "MDM Theme Developer Helper",
+      "url": "https://github.com/omgmog/mdm-webkit-theme-developer-helper",
+      "image": "",
+      "tags": []
+    },
+    {
+      "title": "Chrome tweet current page",
+      "url": "https://github.com/omgmog/chrome-tweet-current-page",
+      "image": "http://i.imgur.com/7dTCxZk.png",
+      "tags": ["chrome", "extension", "twitter"]
+    },
+    {
+      "title": "OS X Folder icons for Git",
+      "url": "https://github.com/omgmog/git-folders",
+      "image": "http://i.imgur.com/vGzWXNC.png",
+      "tags": []
+    },
+    {
+      "title": "Chrome IMDB add to Trello",
+      "url": "https://github.com/omgmog/chrome-imdb-add-to-trello",
+      "image": "http://i.imgur.com/LbAcLFC.png",
+      "tags": ["chrome", "extension", "imdb"]
+    },
+    {
+      "title": "Bullet Journal Icons",
+      "url": "https://github.com/omgmog/bullet-journal-icons",
+      "image": "",
+      "tags": []
+    },
+    {
+      "title": "Automator Action to Launch Sketch Toolbox from Sketch 3",
+      "url": "https://github.com/omgmog/automator-sketchtoolbox-from-sketch",
+      "image": "http://i.imgur.com/lKaPTyh.png",
+      "tags": []
+    },
+    {
+      "title": "Google/ChromeOS style LightDM Webkit greeter theme",
+      "url": "https://github.com/omgmog/lightdm-webkit-google",
+      "image": "http://i.imgur.com/ZwpQmew.jpg",
+      "tags": []
+    },
+    {
+      "title": "jscard.xyz",
+      "url": "https://github.com/omgmog/jscard.xyz",
+      "image": "http://i.imgur.com/35DW2SX.png",
+      "tags": []
+    },
+    {
+      "title": "Improved Font Changer for Google Chrome",
+      "url": "https://github.com/omgmog/chrome-conditional-font-changer",
+      "image": "http://i.imgur.com/a0uEU01.png",
+      "tags": []
+    },
+    {
+      "title": "A bookmarklet to quickly use Google's 'set a timer' feature",
+      "url": "https://blog.omgmog.net/timer-bookmarklet/",
+      "image": "http://i.imgur.com/oGOH1Ho.png",
+      "tags": []
+    },
+    {
+      "title": "Single page Gulp Sass PostCSS boilerplate",
+      "url": "https://github.com/omgmog/single-page-gulp-sass-postcss-boilerplate",
+      "image": "",
+      "tags": []
+    },
+    {
+      "title": "Arch ARM USB installer for the HP Chromebook 11",
+      "url": "https://github.com/omgmog/archarm-usb-hp-chromebook-11",
+      "image": "",
+      "tags": []
+    },
+    {
+      "title": "Line Finder",
+      "url": "https://blog.omgmog.net/line-finder/",
+      "image": "http://i.imgur.com/h4tjYGJ.png",
+      "tags": []
+    },
+    {
+      "title": "A bash script to install all major versions of Firefox on OS X",
+      "url": "https://github.com/omgmog/install-all-firefox",
+      "image": "http://i.imgur.com/no1hyx6.png",
+      "tags": []
+    },
+    {
+      "title": "Chrome WW My Recipes",
+      "url": "https://github.com/omgmog/chrome-ww-my-recipes",
+      "image": "http://i.imgur.com/xy7Wu50.png",
+      "tags": []
+    },
+    {
+      "title": "LightDM Theme Developer Helper",
+      "url": "https://github.com/omgmog/lightdm-webkit-theme-developer-helper",
+      "image": "",
+      "tags": []
+    },
+    {
+      "title": "A list of resources about the UI/UX considerations for VR",
+      "url": "https://github.com/omgmog/ui-ux-vr",
+      "image": "",
+      "tags": []
+    },
+    {
+      "title": "A userscript that displays the emoji better in the emoji management page on Slack",
+      "url": "https://github.com/omgmog/better-slack-emoji-manager-display",
+      "image": "",
+      "tags": []
+    },
+    {
+      "title": "The Digital Oxford Slack Emojis",
+      "url": "https://github.com/omgmog/digitaloxford-slack-emojis",
+      "image": "",
+      "tags": []
+    },
+    {
+      "title": "A quick node script that offlines the Project Euler questions, so you can work on them anywhere.",
+      "url": "https://github.com/omgmog/euler-offline",
+      "image": "",
+      "tags": []
+    }
+  ]
 }
