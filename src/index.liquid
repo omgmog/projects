@@ -7,31 +7,26 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  {% if projects %}
-    <ul class="projects">
-    {% for project in projects reversed %}
-      <li>
-        {% if project.image %}
-          <div class="image">
-            <img src="{{ project.image }}" alt="Picture for {{ project.title }}">
-          </div>
-        {% endif %}
-        <h2>{{ project.title }}</h2>
-        <!-- {% if project.tags %}
-          <ul>
-          {% for tag in project.tags %}
-            <li>{{ tag }}</li>
-          {% endfor %}
-          </ul>
-        {% endif %} -->
-        {% if project.url %}
-          <a href="{{ project.url }}" target="_blank">
-            View this project
-          </a>
-        {% endif %}
-      </li>
-    {% endfor %}
-    </ul>
-  {% endif %}
+  <main>
+    <h1>{{ title_html }}</h1>
+    <p>{{ description }}</p>
+    {% if projects %}
+      {% for project in projects reversed %}
+        <article>
+          {% if project.image %}
+            <div class="image">
+              <img src="{{ project.image }}" alt="Picture for {{ project.title }}">
+            </div>
+          {% endif %}
+          <h2>{{ project.title }}</h2>
+          {% if project.url %}
+            <a href="{{ project.url }}" target="_blank">
+              View this project
+            </a>
+          {% endif %}
+        </article>
+      {% endfor %}
+    {% endif %}
+  </main>
 </body>
 </html>

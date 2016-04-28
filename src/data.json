@@ -1,5 +1,7 @@
 {
   "title": "Projects by Max Glenister",
+  "title_html": "Projects by<br>Max Glenister",
+  "description": "A list of all of the interesting things I've created and shared over the past couple of years. You can find out more about the generation of this page on the <a href=https://github.com/omgmog/projects>Github repository</a>.",
   "projects": [
     {
       "title": "Chrome simple note taker",
