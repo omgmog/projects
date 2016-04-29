@@ -1,139 +1,183 @@
 {
   "title": "Projects by Max Glenister",
   "title_html": "Projects by<br>Max Glenister",
-  "description": "A list of all of the interesting things I've created and shared over the past couple of years. You can find out more about the generation of this page on the <a href=https://github.com/omgmog/projects>Github repository</a>.",
+  "description": [
+    "A list of all of the interesting things I've created and shared over the past couple of years.",
+    "You can find out more about the generation of this page on the <a href=https://github.com/omgmog/projects>Github repository</a>.",
+    "If you want to find out more about me, or the things I'm making check out the following links:"
+  ],
+  "links": [
+    {
+      "label": "About Max Glenister",
+      "url": "https://omgmog.net"
+    },
+    {
+      "label": "My tech blog",
+      "url": "https://blog.omgmog.net"
+    },
+    {
+      "label": "Github",
+      "url": "https://github.com/omgmog"
+    },
+    {
+      "label": "Twitter",
+      "url": "https://twitter.com/omgmog"
+    }
+  ],
   "projects": [
     {
       "title": "Chrome simple note taker",
-      "url": "https://github.com/omgmog/chrome-simple-note-taker",
-      "image": "http://i.imgur.com/CsyXLEK.png",
-      "tags": ["chrome", "extension", "productivity"]
+      "github": "https://github.com/omgmog/chrome-simple-note-taker",
+      "blog": "",
+      "url": "",
+      "image": "http://i.imgur.com/CsyXLEK.png"
     },
     {
       "title": "Chrome add link to Trello",
-      "url": "https://github.com/omgmog/chrome-add-link-to-trello",
-      "image": "http://i.imgur.com/MRIG5gj.png",
-      "tags": ["chrome", "extension", "productivity"]
+      "github": "https://github.com/omgmog/chrome-add-link-to-trello",
+      "blog": "https://blog.omgmog.net/post/chrome-add-to-trello-extension/",
+      "url": "",
+      "image": "http://i.imgur.com/MRIG5gj.png"
     },
     {
       "title": "MDM Theme Developer Helper",
-      "url": "https://github.com/omgmog/mdm-webkit-theme-developer-helper",
-      "image": "",
-      "tags": []
+      "github": "https://github.com/omgmog/mdm-webkit-theme-developer-helper",
+      "blog": "",
+      "url": "",
+      "image": ""
     },
     {
       "title": "Chrome tweet current page",
-      "url": "https://github.com/omgmog/chrome-tweet-current-page",
-      "image": "http://i.imgur.com/7dTCxZk.png",
-      "tags": ["chrome", "extension", "twitter"]
+      "github": "https://github.com/omgmog/chrome-tweet-current-page",
+      "blog": "",
+      "url": "",
+      "image": "http://i.imgur.com/7dTCxZk.png"
     },
     {
       "title": "OS X Folder icons for Git",
-      "url": "https://github.com/omgmog/git-folders",
-      "image": "http://i.imgur.com/vGzWXNC.png",
-      "tags": []
+      "github": "https://github.com/omgmog/git-folders",
+      "blog": "",
+      "url": "",
+      "image": "http://i.imgur.com/vGzWXNC.png"
     },
     {
       "title": "Chrome IMDB add to Trello",
-      "url": "https://github.com/omgmog/chrome-imdb-add-to-trello",
-      "image": "http://i.imgur.com/LbAcLFC.png",
-      "tags": ["chrome", "extension", "imdb"]
+      "github": "https://github.com/omgmog/chrome-imdb-add-to-trello",
+      "blog": "",
+      "url": "",
+      "image": "http://i.imgur.com/LbAcLFC.png"
     },
     {
       "title": "Bullet Journal Icons",
-      "url": "https://github.com/omgmog/bullet-journal-icons",
-      "image": "",
-      "tags": []
+      "github": "https://github.com/omgmog/bullet-journal-icons",
+      "blog": "https://blog.omgmog.net/post/creating-an-icon-font/",
+      "url": "",
+      "image": ""
     },
     {
       "title": "Automator Action to Launch Sketch Toolbox from Sketch 3",
-      "url": "https://github.com/omgmog/automator-sketchtoolbox-from-sketch",
-      "image": "http://i.imgur.com/lKaPTyh.png",
-      "tags": []
+      "github": "https://github.com/omgmog/automator-sketchtoolbox-from-sketch",
+      "blog": "https://blog.omgmog.net/post/launching-sketch-toolbox-from-inside-sketch/",
+      "url": "",
+      "image": "http://i.imgur.com/lKaPTyh.png"
     },
     {
       "title": "Google/ChromeOS style LightDM Webkit greeter theme",
-      "url": "https://github.com/omgmog/lightdm-webkit-google",
-      "image": "http://i.imgur.com/ZwpQmew.jpg",
-      "tags": []
+      "github": "https://github.com/omgmog/lightdm-webkit-google",
+      "blog": "",
+      "url": "",
+      "image": "http://i.imgur.com/ZwpQmew.jpg"
     },
     {
       "title": "jscard.xyz",
-      "url": "https://github.com/omgmog/jscard.xyz",
-      "image": "http://i.imgur.com/35DW2SX.png",
-      "tags": []
+      "github": "https://github.com/omgmog/jscard.xyz",
+      "blog": "https://blog.omgmog.net/post/talk-jsoxford-20-minutes-into-the-future/",
+      "url": "https://jscard.xyz",
+      "image": "http://i.imgur.com/35DW2SX.png"
     },
     {
       "title": "Improved Font Changer for Google Chrome",
-      "url": "https://github.com/omgmog/chrome-conditional-font-changer",
-      "image": "http://i.imgur.com/a0uEU01.png",
-      "tags": []
+      "github": "https://github.com/omgmog/chrome-conditional-font-changer",
+      "blog": "",
+      "url": "",
+      "image": "http://i.imgur.com/a0uEU01.png"
     },
     {
       "title": "A bookmarklet to quickly use Google's 'set a timer' feature",
+      "github": "",
+      "blog": "",
       "url": "https://blog.omgmog.net/timer-bookmarklet/",
-      "image": "http://i.imgur.com/oGOH1Ho.png",
-      "tags": []
+      "image": "http://i.imgur.com/oGOH1Ho.png"
     },
     {
       "title": "Single page Gulp Sass PostCSS boilerplate",
-      "url": "https://github.com/omgmog/single-page-gulp-sass-postcss-boilerplate",
-      "image": "",
-      "tags": []
+      "github": "https://github.com/omgmog/single-page-gulp-sass-postcss-boilerplate",
+      "blog": "",
+      "url": "",
+      "image": ""
     },
     {
       "title": "Arch ARM USB installer for the HP Chromebook 11",
-      "url": "https://github.com/omgmog/archarm-usb-hp-chromebook-11",
-      "image": "",
-      "tags": []
+      "github": "https://github.com/omgmog/archarm-usb-hp-chromebook-11",
+      "blog": "",
+      "url": "https://blog.omgmog.net/post/installing-arch-linux-arm-on-the-hp-chromebook-11/",
+      "image": "http://i.imgur.com/MRKieo1.png"
     },
     {
       "title": "Line Finder",
+      "github": "https://github.com/omgmog/line-finder",
+      "blog": "",
       "url": "https://blog.omgmog.net/line-finder/",
-      "image": "http://i.imgur.com/h4tjYGJ.png",
-      "tags": []
+      "image": "http://i.imgur.com/h4tjYGJ.png"
     },
     {
       "title": "A bash script to install all major versions of Firefox on OS X",
-      "url": "https://github.com/omgmog/install-all-firefox",
-      "image": "http://i.imgur.com/no1hyx6.png",
-      "tags": []
+      "github": "https://github.com/omgmog/install-all-firefox",
+      "blog": "",
+      "url": "",
+      "image": "http://i.imgur.com/no1hyx6.png"
     },
     {
       "title": "Chrome WW My Recipes",
-      "url": "https://github.com/omgmog/chrome-ww-my-recipes",
-      "image": "http://i.imgur.com/xy7Wu50.png",
-      "tags": []
+      "github": "https://github.com/omgmog/chrome-ww-my-recipes",
+      "blog": "",
+      "url": "https://chrome.google.com/webstore/detail/ww-nui-my-recipes/mcebjigakimloomdokccjkdpmjkbmphd",
+      "image": "http://i.imgur.com/xy7Wu50.png"
     },
     {
       "title": "LightDM Theme Developer Helper",
-      "url": "https://github.com/omgmog/lightdm-webkit-theme-developer-helper",
-      "image": "",
-      "tags": []
+      "github": "https://github.com/omgmog/lightdm-webkit-theme-developer-helper",
+      "blog": "",
+      "url": "",
+      "image": ""
     },
     {
       "title": "A list of resources about the UI/UX considerations for VR",
-      "url": "https://github.com/omgmog/ui-ux-vr",
-      "image": "",
-      "tags": []
+      "github": "https://github.com/omgmog/ui-ux-vr",
+      "blog": "https://blog.omgmog.net/post/ux-in-virtual-reality/",
+      "url": "http://www.uxofvr.com",
+      "image": ""
     },
     {
       "title": "A userscript that displays the emoji better in the emoji management page on Slack",
-      "url": "https://github.com/omgmog/better-slack-emoji-manager-display",
-      "image": "",
-      "tags": []
+      "github": "https://github.com/omgmog/better-slack-emoji-manager-display",
+      "blog": "",
+      "url": "",
+      "image": ""
     },
     {
       "title": "The Digital Oxford Slack Emojis",
-      "url": "https://github.com/omgmog/digitaloxford-slack-emojis",
-      "image": "",
-      "tags": []
+      "github": "https://github.com/omgmog/digitaloxford-slack-emojis",
+      "blog": "",
+      "url": "",
+      "image": ""
     },
     {
       "title": "A quick node script that offlines the Project Euler questions, so you can work on them anywhere.",
-      "url": "https://github.com/omgmog/euler-offline",
-      "image": "",
-      "tags": []
+      "github": "https://github.com/omgmog/euler-offline",
+      "blog": "",
+      "url": "",
+      "image": ""
     }
   ]
 }

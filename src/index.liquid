@@ -3,30 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>{{ title }}</title>
   <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light|Arimo' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <main>
-    <h1>{{ title_html }}</h1>
-    <p>{{ description }}</p>
-    {% if projects %}
-      {% for project in projects reversed %}
-        <article>
-          {% if project.image %}
-            <div class="image">
-              <img src="{{ project.image }}" alt="Picture for {{ project.title }}">
-            </div>
-          {% endif %}
-          <h2>{{ project.title }}</h2>
-          {% if project.url %}
-            <a href="{{ project.url }}" target="_blank">
-              View this project
-            </a>
-          {% endif %}
-        </article>
+  <aside>
+    <div class="inner">
+      <h1>{{ title_html }}</h1>
+      {% for para in description %}
+        <p>{{ para }}</p>
       {% endfor %}
-    {% endif %}
+      <ul>
+        {% for link in links %}
+          <li>
+            <a href="{{ link.url }}">{{ link.label }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+    {% for project in projects reversed %}
+      <article>
+        <div class="inner">
+        {% if project.image %}
+          <figure>
+            <img src="{{ project.image }}" alt="Picture for {{ project.title }}">
+          </figure>
+        {% endif %}
+        <h2>
+          {{ project.title }}
+        </h2>
+        {% if project.url %}
+          <a href="{{ project.url }}" target="_blank">View project page</a>
+        {% endif %}
+        {% if project.url and project.github %} | {% endif %}
+        {% if project.github %}
+          <a href="{{ project.github }}" target="_blank">View code on Github</a>
+        {% endif %}
+        {% if project.github and project.blog %} | {% endif %}
+        {% if project.blog %}
+          <a href="{{ project.blog }}" target="_blank">Read about it on my blog</a>
+        {% endif %}
+        </div>
+      </article>
+    {% endfor %}
   </main>
 </body>
 </html>
